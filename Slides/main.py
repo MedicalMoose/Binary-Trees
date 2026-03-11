@@ -12,4 +12,5 @@ NodeTwo = Node(2, NodeFour, NodeFive)
 NodeOne = Node(1, NodeTwo, NodeThree)
 
 NewTree = Tree(NodeOne)
+NewTree.insert(Node(5))
 NewTree.print_tree()
