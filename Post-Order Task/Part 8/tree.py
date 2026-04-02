@@ -14,7 +14,7 @@ class Tree:
     def root(self, new_root):
         self.root = new_root
 
-    def setup_tree(self, node = 0, counts = [0, 0, 0], height = 1):
+    def setup_tree(self, node = 0, counts = [0, 0, 0], height = 0):
         if node == 0:
             node = self.root
     
